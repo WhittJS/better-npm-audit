@@ -18,7 +18,7 @@
   "scripts": {
     "preaudit": "npm run build",
     "audit": "node lib audit -x 1064843,1067245",
-    "test": "mocha -r ts-node/register test/**/*.test.ts",
+    "test": "mocha -r tsx test/**/*.test.ts",
     "lint": "eslint .",
     "qc": "npm run test && npm run lint",
     "clean": "rimraf lib",
@@ -54,7 +54,7 @@
     "prettier": "2.3.2",
     "rimraf": "^3.0.2",
     "sinon": "^9.2.4",
-    "ts-node": "^10.0.0",
+    "tsx": "^4.21.0",
     "typescript": "^4.3.5"
   },
   "keywords": [
