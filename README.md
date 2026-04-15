@@ -1,23 +1,10 @@
 # Better NPM Audit
 
-The goal of this project is to provide additional features on top of the existing npm audit options. We hope to encourage more people to do security audits for their projects.
+Forked from [jeemok/better-npm-audit](https://github.com/jeemok/better-npm-audit). This fork adds additional features and is actively maintained.
 
-[![NPM](https://nodei.co/npm/better-npm-audit.png)](https://npmjs.org/package/better-npm-audit)
+[![NPM](https://nodei.co/npm/@whittjs/better-npm-audit.png)](https://npmjs.org/package/@whittjs/better-npm-audit)
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square) ![npm downloads](https://img.shields.io/npm/d18m/better-npm-audit) ![node current](https://img.shields.io/node/v/better-npm-audit) ![node support](https://img.shields.io/badge/node-up_to_v22-brightgreen) ![npm vulnerability](https://snyk.io/test/github/jeemok/better-npm-audit/badge.svg?targetFile=package.json) ![GitHub issues](https://img.shields.io/github/issues/jeemok/better-npm-audit?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/better-npm-audit?style=flat-square) ![Languages](https://img.shields.io/github/languages/top/jeemok/better-npm-audit?style=flat-square)
-
-## Looking for Collaborators
-
-Hi there! 👋
-
-I’m currently looking for collaborators to help maintain and develop this project. Due to time constraints, I haven’t been able to give it the attention it deserves, but I believe it has great potential to grow with the help of passionate contributors.
-
-Become a Collaborator
-If you’re interested in contributing on a regular basis, I’d love to have you on board as a collaborator. Whether you’re interested in fixing bugs, adding new features, or improving documentation, your contributions will be highly valued.
-
-As a collaborator, you’ll have push access to the repository and play a key role in shaping the future of the project. If this sounds like something you’d be interested in, please reach out! You can open an issue titled “Interested in Collaborating” or contact me directly via email.
-
-Let’s work together to make this project even better!
+![npm downloads](https://img.shields.io/npm/d18m/@whittjs/better-npm-audit) ![node current](https://img.shields.io/node/v/@whittjs/better-npm-audit) ![node support](https://img.shields.io/badge/node-up_to_v22-brightgreen) ![GitHub issues](https://img.shields.io/github/issues/WhittJS/better-npm-audit?style=flat-square) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/@whittjs/better-npm-audit?style=flat-square) ![Languages](https://img.shields.io/github/languages/top/WhittJS/better-npm-audit?style=flat-square)
 
 ## NPM version 6 and 7, and 8
 
@@ -31,17 +18,17 @@ NPM has upgraded to version 7 in late 2020 and has breaking changes on the `npm 
 | Official NPM v7 audit docs | https://docs.npmjs.com/cli/v7/commands/npm-audit                                           |
 | Dealing with new npm audit | https://uko.codes/dealing-with-npm-v7-audit-changes                                        |
 
-You may find the sample JSON outputs for each NPM versions in our codebase: [v6](https://github.com/jeemok/better-npm-audit/blob/master/test/__mocks__/v6-json-buffer.json), [v7](https://github.com/jeemok/better-npm-audit/blob/master/test/__mocks__/v7-json-buffer.json) & [v8](https://github.com/jeemok/better-npm-audit/blob/master/test/__mocks__/v8-json-buffer.json).
+You may find the sample JSON outputs for each NPM versions in our codebase: [v6](https://github.com/WhittJS/better-npm-audit/blob/master/test/__mocks__/v6-json-buffer.json), [v7](https://github.com/WhittJS/better-npm-audit/blob/master/test/__mocks__/v7-json-buffer.json) & [v8](https://github.com/WhittJS/better-npm-audit/blob/master/test/__mocks__/v8-json-buffer.json).
 
 <br />
 
 ## Installation
 
-    $ npm install --save better-npm-audit
+    $ npm install --save @whittjs/better-npm-audit
 
 or
 
-    $ npm install -g better-npm-audit
+    $ npm install -g @whittjs/better-npm-audit
 
 <br />
 
@@ -165,7 +152,7 @@ When using a `.nsprc` file, a report will be displayed when it starts running:
 
 ## Changelog
 
-You can find the changelog [here](https://github.com/jeemok/better-npm-audit/blob/master/CHANGELOG.md).
+You can find the changelog [here](https://github.com/WhittJS/better-npm-audit/blob/master/CHANGELOG.md).
 
 <br />
 
@@ -177,6 +164,4 @@ You can find the changelog [here](https://github.com/jeemok/better-npm-audit/blo
 
 ---
 
-If you like this project,
-
-<a href="https://www.buymeacoffee.com/jeemok" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+Forked from [jeemok/better-npm-audit](https://github.com/jeemok/better-npm-audit). Original contributors listed above.
