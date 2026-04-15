@@ -1,3 +1,16 @@
+## 3.12.2 (April 14, 2026)
+
+- [edff6d8](https://github.com/WhittJS/better-npm-audit/commit/edff6d8) Update README to represent fork
+
+## 3.12.1 (April 14, 2026)
+
+- [27c0ca2](https://github.com/WhittJS/better-npm-audit/commit/27c0ca2) Update dependencies and resolve vulnerabilities
+
+## 3.12.0 (April 14, 2026)
+
+- [73b1421](https://github.com/WhittJS/better-npm-audit/commit/73b1421) Add Fix column to security report showing fix availability (`true`, `false`, or `major`)
+- [70c519c](https://github.com/WhittJS/better-npm-audit/commit/70c519c) Fork as `@whittjs/better-npm-audit`
+
 ## 3.11.0 (September 9, 2024)
 
 - [#102](https://github.com/jeemok/better-npm-audit/pull/102) Respect the `NO_COLOR` environment variable
