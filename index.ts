@@ -56,7 +56,10 @@ program
   .option('-x, --exclude <ids>', 'Exceptions or the vulnerabilities ID(s) to exclude.')
   .option('-m, --module-ignore <moduleNames>', 'Names of modules to ignore.')
   .option('-l, --level <auditLevel>', 'The minimum audit level to validate.')
-  .option('-f, --filter-table [level]', 'Filter table to show only vulnerabilities at or above specified level (defaults to audit level if no value provided).')
+  .option(
+    '-f, --filter-table [level]',
+    'Filter table to show only vulnerabilities at or above specified level (defaults to audit level if no value provided).',
+  )
   .option('-p, --production', 'Skip checking the devDependencies.')
   .option('-r, --registry <url>', 'The npm registry url to use.')
   .option('-i, --include-columns <columnName1>,<columnName2>,..,<columnNameN>', 'Columns to include in report.')
